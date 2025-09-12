@@ -1,7 +1,6 @@
 Crear proyecto
 
-mvn archetype:generate -DgroupId=backend.semana2 -DartifactId=ejercicioCafeteria -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
-
+mvn archetype:generate -DgroupId=backend.semana4 -DartifactId=ejercici -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 Problemas con Maven
 
 export MAVEN_HOME="/c/Herramientas/maven"
