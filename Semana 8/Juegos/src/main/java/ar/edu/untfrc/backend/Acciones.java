@@ -31,6 +31,9 @@ public class Acciones {
         Files.copy(stream, tempFile.toPath(), java.nio.file.StandardCopyOption.REPLACE_EXISTING);
 
         service.bulkInsert(tempFile);
+        var juegos = service.getAllJuegos();
+
+    System.out.println(juegos.size() + " juegos importados:");
 
         System.out.println("Importación finalizada!");
     } catch (IOException e) {
